@@ -46,5 +46,7 @@ int main()
         printf("%f\n",bet_on_a*amount);
         printf("and bet on second =");
         printf("%f",(1-bet_on_a)*amount);
+        printf("\nprofit = ");
+        printf("%f\n",(bet_on_a*amount*first)-(amount));
     }
 }
